@@ -1,0 +1,13 @@
+@import "../Fonts/fonts";
+@import "../Misc/variables";
+
+.card {
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: $navbar-color;
+    color: $default-font-color;
+    font-size: 1.6rem;
+    font-weight: 200;
+    // font-family: "Montserrat", sans-serif;
+  }

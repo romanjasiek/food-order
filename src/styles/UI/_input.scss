@@ -1,0 +1,41 @@
+@import "../Fonts/fonts";
+@import "../Misc/variables";
+
+.input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input label {
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .input input {
+    width: 3rem;
+    border-radius: 5px;
+    border: 1px solid $default-accent-color;
+    font: inherit;
+    padding-left: 1rem;
+    caret-color: $default-accent-color;
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+    border: 1px solid $default-accent-color !important;
+    box-shadow: 0 0 3px $default-accent-color !important;
+    -moz-box-shadow: 0 0 3px $default-accent-color !important;
+    -webkit-box-shadow: 0 0 3px $default-accent-color !important;
+  }

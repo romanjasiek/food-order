@@ -1,0 +1,24 @@
+@import "variables";
+@import "../Fonts/fonts";
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+font-size: 62.5%;
+}
+
+// h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+// 	margin-top: 0;
+// }
+
+body {
+    background-color: $body-background-color;
+}
+
+html {
+    font-family: 'Jost', sans-serif;
+}

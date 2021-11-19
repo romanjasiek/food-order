@@ -1,0 +1,31 @@
+@import "../../Fonts/fonts";
+@import "../../Misc/variables";
+
+.form {
+    // text-align: right;
+    display: flex;
+    // align-content: center;
+    justify-content: space-around;
+  }
+  
+  .form button {
+    // display: flex;
+    // justify-content: space-between;
+    // font: inherit;
+    height: 2.85rem;
+    width: 3rem;
+    cursor: pointer;
+    background-color: $default-accent-color-dark;
+    border: 1px solid $default-accent-color-dark;
+    color: white;
+    // padding: 0.5rem 0.25rem;
+    margin: 0.8rem;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .form button:hover,
+  .form button:active {
+    background-color: $default-accent-color;
+    border-color: $default-accent-color;
+  }

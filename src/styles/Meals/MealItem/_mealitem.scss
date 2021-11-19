@@ -1,0 +1,39 @@
+@import "../../Fonts/fonts";
+@import "../../Misc/variables";
+
+.meal {
+    display: flex;
+    justify-content: flex-end;
+
+    // margin: 1rem;
+    
+    padding-bottom: 1rem;
+    border-bottom: 1px solid $default-accent-color;
+  }
+
+.meal__price {
+    display: flex;
+
+    // justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: none;
+    color: $default-accent-color;
+    font-weight: 700;
+}
+  
+  .meal h3 {
+    margin: 0 0 0.25rem 0;
+  }
+  
+  .description {
+    text-align: right;
+    font-style: italic;
+  }
+  
+  .price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: $default-accent-color-dark;
+    font-size: 1.25rem;
+  }

@@ -1,0 +1,27 @@
+@import "../Fonts/fonts";
+@import "../Misc/variables";
+
+.summary {
+    text-align: center;
+    max-width: 95rem;
+    // width: 95%;
+    margin: auto;
+    margin-top: -10rem;
+    position: relative;
+    background-color: $meals-summary-background;
+    // font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: $default-font-color;
+    font-size: 2rem;
+    border-radius: 14px;
+    padding: 2rem;
+    text-shadow: 0 0 0.5rem black;
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+  }
+  
+  .summary h2 {
+    color: $default-accent-color;
+    font-size: 3rem;
+    margin-top: 0;
+  }
