@@ -5,7 +5,7 @@ const Header = (props) => {
     return  <Fragment>
                 <header className="navbar">
                     <h1>Mahlzeit!</h1>
-                    <HeaderCartButton />
+                    <HeaderCartButton onClick={props.onShow}/>
                 </header>
                 <div className="header">
                     <div className="header__container">
