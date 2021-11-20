@@ -6,7 +6,7 @@
     max-width: 95rem;
     // width: 95%;
     margin: auto;
-    margin-top: -10rem;
+    margin-top: -15rem;
     position: relative;
     background-color: $meals-summary-background;
     // font-family: "Montserrat", sans-serif;
@@ -24,4 +24,21 @@
     color: $default-accent-color;
     font-size: 3rem;
     margin-top: 0;
+    margin-bottom: 5rem;
+  }
+
+  .summary img {
+    float: left;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+    width: 25%;
+    height: auto;
+    margin-top: -2rem;
+  }
+
+  .summary p {
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
   }
