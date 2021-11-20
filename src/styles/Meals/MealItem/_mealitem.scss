@@ -6,9 +6,11 @@
     justify-content: flex-end;
 
     // margin: 1rem;
-    
+    padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-right: 5rem;
     border-bottom: 1px solid $default-accent-color;
+    text-shadow: 0 0 1px $default-accent-color-dark;
   }
 
 .meal__price {
@@ -16,10 +18,13 @@
 
     // justify-content: space-between;
     margin: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     padding-bottom: 1rem;
     border-bottom: none;
     color: $default-accent-color;
     font-weight: 700;
+    text-shadow: 0 0 1px $default-accent-color-dark;
 }
   
   .meal h3 {

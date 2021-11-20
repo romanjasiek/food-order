@@ -13,6 +13,8 @@
     font-weight: 300;
     color: $default-font-color;
     font-size: 2rem;
+    border-top: 1px solid $default-accent-color;
+    border-bottom: 1px solid $navbar-color;
     border-radius: 14px;
     padding: 2rem;
     text-shadow: 0 0 0.5rem black;
@@ -35,6 +37,8 @@
     width: 25%;
     height: auto;
     margin-top: -2rem;
+    border-top: 1px solid $navbar-color;
+    border-bottom: 1px solid $navbar-color;
   }
 
   .summary p {

@@ -2,6 +2,7 @@
 @import "../Misc/variables";
 
 .cart-items {
+    font-size: 1.8rem;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -13,8 +14,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: bold;
-    font-size: 1.5rem;
+    // font-weight: bold;
+    font-size: 1.6rem;
+    border-top: 1px solid $default-accent-color;
+    padding-top: 0.5rem;
     margin: 1rem 0;
   }
   
@@ -24,7 +27,8 @@
   }
   
   .actions button {
-    font: inherit;
+    // font: inherit;
+    font-size: 1.5rem;
     cursor: pointer;
     background-color: transparent;
     border: 1px solid $navbar-color;
@@ -41,10 +45,12 @@
   }
   
   .actions .button--alt {
+    font-size: 1.5rem;
     color: $navbar-color;
   }
   
   .actions .button {
+    font-size: 1.5rem;
     background-color: $navbar-color;
     color: $default-font-color;
   }

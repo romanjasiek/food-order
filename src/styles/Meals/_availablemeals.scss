@@ -2,10 +2,15 @@
 @import "../Misc/variables";
 
 .meals {
+    padding: auto;
     max-width: 95rem;
     // width: 90%;
     margin: 2rem auto;
+    
     animation: meals-appear 1s ease-out forwards;
+    border-top: 1px solid $default-accent-color;
+    border-bottom: 1px solid $default-accent-color-dark;
+    border-radius: 14px;
   }
   
   .meals ul {
