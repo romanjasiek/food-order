@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import { nanoid } from "nanoid";
 
 import CartContext from "../../store/cart-context";
 import CartItem from "./CartItem";

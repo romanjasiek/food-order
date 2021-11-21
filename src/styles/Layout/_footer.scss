@@ -1,0 +1,38 @@
+@import "../Fonts/fonts";
+@import "../Misc/variables";
+
+.footer-menu {
+    background-color: $navbar-color;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.8rem;
+    margin-bottom: 0;
+    padding: 0.4rem;
+    border-top: 1px solid $default-accent-color;
+    border-bottom: 1px solid $default-accent-color-dark;
+    color: $default-font-color;
+    font-size: 1.2rem;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100%;
+    position: absolute;
+    bottom: -10;
+    left: 0;
+  }
+  
+  .footer-menu a {
+    // flex: 1;
+    // margin-bottom: auto;
+    color: $default-font-color;
+    text-decoration: none;
+    transition: color 2s ease-in-out;
+  }
+  
+  .footer-menu a:hover {
+    color: $default-accent-color;
+    transition: all 0s;
+  }
+
+  .footer-icon {
+    color: $default-font-color;
+  }
