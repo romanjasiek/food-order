@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mahlzeit/static/css/main.bd9c1256.chunk.css",
+    "main.js": "/mahlzeit/static/js/main.31bd9d56.chunk.js",
+    "main.js.map": "/mahlzeit/static/js/main.31bd9d56.chunk.js.map",
+    "runtime-main.js": "/mahlzeit/static/js/runtime-main.4dda77af.js",
+    "runtime-main.js.map": "/mahlzeit/static/js/runtime-main.4dda77af.js.map",
+    "static/js/2.65797186.chunk.js": "/mahlzeit/static/js/2.65797186.chunk.js",
+    "static/js/2.65797186.chunk.js.map": "/mahlzeit/static/js/2.65797186.chunk.js.map",
+    "index.html": "/mahlzeit/index.html",
+    "static/css/main.bd9c1256.chunk.css.map": "/mahlzeit/static/css/main.bd9c1256.chunk.css.map",
+    "static/js/2.65797186.chunk.js.LICENSE.txt": "/mahlzeit/static/js/2.65797186.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/mahlzeit/static/media/mahlzeit_header.b73661f2.jpg",
+    "static/media/mahlzeit_chef.45c3916e.jpg": "/mahlzeit/static/media/mahlzeit_chef.45c3916e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4dda77af.js",
+    "static/js/2.65797186.chunk.js",
+    "static/css/main.bd9c1256.chunk.css",
+    "static/js/main.31bd9d56.chunk.js"
+  ]
+}
