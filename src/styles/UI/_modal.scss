@@ -13,12 +13,12 @@
   
   .modal {
     position: fixed;
-    top: 20vh;
+    top: 25vh;
     left: 5%;
     width: 90%;
     // font-size: 1.6rem;
     background-color: #fefefe;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 14px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     z-index: 30;
@@ -27,8 +27,8 @@
   
   @media (min-width: 768px) {
     .modal {
-      width: 40rem;
-      left: calc(50% - 20rem);
+      width: 50rem;
+      left: calc(50% - 25.5rem);
     }
   }
   

@@ -13,6 +13,8 @@ const HeaderCartButton = (props) => {
         return curNumber + item.amount;
     }, 0);
 
+    
+
     return <button className="button" onClick={props.onClick}>
         <span><FontAwesomeIcon className="icon" icon={faUtensils} size="2x" /></span>
         <span>Deine Mahlzeit(en)</span>
