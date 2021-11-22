@@ -11,6 +11,7 @@ const MealItem = (props) => {
     const addItemToCartHandler = (amount) => {
         cartCtx.addItem({
             id: props.id,
+            image: props.image,
             name: props.name,
             amount: amount,
             price: props.price,
@@ -20,6 +21,7 @@ const MealItem = (props) => {
     return <Fragment>
         <div className="meal">
         <li>
+        <img src={props.image} alt={props.imgtitle} />
         <div><h3>{props.name}</h3></div>
         <div className="description">{props.description}</div>
         </li>

@@ -12,6 +12,12 @@
     border-bottom: 1px solid $default-accent-color-dark;
     border-radius: 14px;
   }
+
+  .meals sup {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: $default-font-color;
+  }
   
   .meals ul {
     list-style: none;
