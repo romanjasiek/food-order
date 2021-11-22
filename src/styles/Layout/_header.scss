@@ -144,12 +144,12 @@
     animation-timing-function: ease-in-out;
   
     @media (max-width: $breakpoint-md) {
-      font-size: 5rem;
+      font-size: 6rem;
       text-shadow: none;
     }
   
     @media (max-width: $breakpoint-sm) {
-      margin-top: 5rem;
+      margin-top: 6rem;
       font-size: 3rem;
       text-shadow: none;
     }
@@ -183,13 +183,13 @@
     z-index: 1;
   
     @media (max-width: $breakpoint-sm) {
-      margin-top: 3rem;
+      margin-top: 4rem;
       font-size: 1.5rem;
       font-weight: 300;
       text-shadow: none;
     }
     @media (max-width: $breakpoint-xs) {
-      margin-top: 3rem;
+      margin-top: 4rem;
       font-size: 1.5rem;
       font-weight: 300;
       text-shadow: none;
