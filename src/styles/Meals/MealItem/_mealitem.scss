@@ -16,6 +16,22 @@
       border-bottom: none;
       padding-bottom: 0.5rem;
   }
+
+  @media (max-width: $breakpoint-sm) {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-shadow: none;
+  }
+  @media (max-width: $breakpoint-xs) {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-shadow: none;
+  }
   }
 
 .meal__price {
