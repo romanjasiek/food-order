@@ -28,7 +28,7 @@
 
     @media (max-width: $breakpoint-sm) {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
     }
   }
   
@@ -149,7 +149,7 @@
     }
   
     @media (max-width: $breakpoint-sm) {
-      margin-top: 2rem;
+      margin-top: 5rem;
       font-size: 3rem;
       text-shadow: none;
     }
