@@ -19,7 +19,7 @@ const DUMMY_MEALS = [
     {
       id: nanoid(),
       image: SchwarzeJohanisbeere,
-      name: <div dangerouslySetInnerHTML={{__html: 'Glas Apfelsaft'}} />,
+      name: <div dangerouslySetInnerHTML={{__html: 'Glas Schwarze-Johannisbeerensaft'}} />,
       description: "0,4 Liter. Auf Wunsch auch als Schorle.",
       price: 1.99,
     },

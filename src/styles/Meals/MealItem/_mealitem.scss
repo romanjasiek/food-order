@@ -33,7 +33,15 @@
 }
   
   .meal h3 {
+    cursor: default;
+    text-align: right;
     margin: 0 0 0.25rem 0;
+    transition: color 0.5s ease-in-out;
+
+    &:hover {
+      color: $default-accent-color;
+      transition: all 0s;
+    }
   }
 
   .meal img {
@@ -54,6 +62,7 @@
   }
   
   .description {
+    cursor: default;
     text-align: right;
     font-style: italic;
   }
