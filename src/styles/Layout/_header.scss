@@ -25,6 +25,11 @@
     padding: 0 10%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     z-index: 10;
+
+    @media (max-width: $breakpoint-sm) {
+      display: flex;
+      justify-content: space-between;
+    }
   }
   
   .header {
@@ -144,6 +149,7 @@
     }
   
     @media (max-width: $breakpoint-sm) {
+      margin-top: 2rem;
       font-size: 3rem;
       text-shadow: none;
     }
