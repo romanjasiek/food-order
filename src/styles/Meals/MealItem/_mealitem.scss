@@ -19,14 +19,14 @@
 
   @media (max-width: $breakpoint-sm) {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-size: 1.5rem;
     font-weight: 300;
     text-shadow: none;
   }
   @media (max-width: $breakpoint-xs) {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 1.5rem;
     font-size: 1.5rem;
     font-weight: 300;
